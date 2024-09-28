@@ -1,0 +1,55 @@
+/* CSS for f2.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+.image-container {
+    width: 100%;
+    max-width: 800px; /* Limits image size */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the animated border stays within bounds */
+}
+
+.centered-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures the image fits without stretching */
+    transition: transform 0.3s ease; /* Smooth animation on hover */
+    border-radius: 10px;
+}
+
+.centered-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* RGB Animated Border */
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .image-container {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .centered-image {
+        width: 100%;
+    }
+}
