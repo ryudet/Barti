@@ -211,7 +211,7 @@ span{
 }
 @keyframes words{
     0%,20%{
-        content: "Branding Designer";
+        content: "Branding specialist";
 
     }
     21%,40%{
@@ -221,7 +221,7 @@ span{
         content: "Web Designer";
     }
     61%,80%{
-        content: "Branding Designer";
+        content: "Branding specialist";
     }
     80%,100%{
         content: "UI | UX designer";

@@ -203,7 +203,9 @@ body {
     .navbar-menu a {
         font-size: 0.8rem;
     }
-
+    .work-container{
+        margin-top: 50px;  
+  }
     .work {
         padding: 50px 10px;
     }
