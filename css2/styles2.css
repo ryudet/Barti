@@ -188,6 +188,9 @@ body {
         font-size: 0.9rem;
         padding: 8px 15px;
     }
+    .work-container{
+        margin-top: 50px;  
+  }
 }
 
 /* Mobile Styles for screens smaller than 600px */
